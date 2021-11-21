@@ -1,0 +1,138 @@
+/* colores */
+
+$clr-negative: #ff1744;
+$clr-positive: #2abf77;
+$clr-gray100: #f0f7f8;
+$clr-gray200: #cfd8dc;
+$clr-gray300: #a7b7be;
+$clr-gray400: #6b7e86;
+$clr-gray500: #425a65;
+$clr-heat100: #ff1744;
+$clr-heat80: #fc4f1a;
+$clr-heat60: #f8764e;
+$clr-heat40: #ffbe5d;
+$clr-heat30: #c2db32;
+$clr-heat20: #32db95;
+$clr-heat10: #38e3f0;
+$clr-heat5: #82f5fd;
+$clr-heat0: #b4c6c7;
+
+
+/* border radius */
+$radius: 0.2rem;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    background-color: $clr-gray100;
+    color: $clr-gray500;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 1rem;
+
+    & > *{
+        border:none;
+        background-color: white;
+        box-shadow: 0 0 10px $clr-gray200;
+        font-weight: bold;
+        font-size: 2rem;
+        color: inherit;
+        border-radius: 50%;
+        height: 4rem;
+        width: 4rem;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 250ms ease-in-out,
+        transform 50ms ease-in-out;
+
+        &:hover{
+            background-color: $clr-gray200;
+        }
+
+        &:active{
+            transform: scale(0.9);
+        }
+    }
+}
+
+.negative{
+    color:$clr-negative;
+    animation: pulse 500ms ease-in-out;
+}
+
+.positive{
+    color:$clr-positive;
+    animation: pulse 500ms ease-in-out;
+}
+
+.cold0{
+    color:$clr-heat0;
+}
+.cold5{
+    color: $clr-heat5;
+}
+.cold10{
+    color: $clr-heat10;
+}
+.cold20{
+    color: $clr-heat20;
+}
+.cold30{
+    color: $clr-heat30;
+}
+.cold40{
+    color: $clr-heat40;
+}
+.cold60{
+    color: $clr-heat60;
+}
+.cold80{
+    color: $clr-heat80;
+}
+.cold100{
+    color: $clr-heat100;
+}
+
+.title-app{
+    font-family: Montserrat, sans-serif;
+    font-size:4rem;
+    font-weight:800;
+    color:#8A0530;
+    text-transform: uppercase;
+}
+.subtitle-app{
+    font-family: Montserrat, sans-serif;
+    font-size:1.2rem;
+    font-weight:400;
+    color:#6D160B;
+    text-transform: uppercase;
+    margin: -50px 0 0 0;
+}
+
+@keyframes pulse{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+}
