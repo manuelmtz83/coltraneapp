@@ -38,7 +38,7 @@ export default class App extends Component
     return (
     <div className="app">
       <div className="title-app">Alice Coltrane 100%</div>
-      <div className="subtitle-app">Anti-anxiety click therapy</div>
+      <div className="subtitle-app">Anti-Stress at Work Click Therapy</div>
       <h1 className={count < 5 ? "cold0" :
        (count >= 5 && count < 10) ? "cold5" :
        (count >= 10 && count < 20) ? "cold10" :
@@ -53,7 +53,6 @@ export default class App extends Component
       </h1>
   
       <div className="button-wrapper">
-            <Button title={"-"}  task = { () => this.decrementCount() } />
             <Button title={"+"}  task = { () => this.incrementCount() } />
             
       </div>
