@@ -58,6 +58,7 @@ export default class App extends Component
       </div>
       <Popup trigger={count >= 100 ? "true" : null}>
       <div className="title">Alice Coltrane Anti-Stress Therapy Center</div>
+      <div className="subtitle">We know you're very angry and stressed at this moment, but let the music flow in the background and BREATHE.</div>
       <iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLBWtPvMJyoMExnM0c9YgUooZPP4YRgJLv&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </Popup>
     </div>
