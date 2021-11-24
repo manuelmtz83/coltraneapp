@@ -37,11 +37,13 @@
     color: #8A0530;
 }
 
-.subtitle{
-    font-family: Montserrat, sans-serif;
-    font-size:.8rem;
-    font-weight:400;
-    color:#6D160B;
-    text-transform: uppercase;
-    margin: 0 0 0 0;
+.subtitle {
+    font-family: Montserrat,sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6d160b;
+    margin: -20px 0 20px 0;
 }
