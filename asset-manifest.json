@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/coltraneapp/static/css/main.72110ae2.chunk.css",
+    "main.js": "/coltraneapp/static/js/main.02d4e25e.chunk.js",
+    "main.js.map": "/coltraneapp/static/js/main.02d4e25e.chunk.js.map",
+    "runtime-main.js": "/coltraneapp/static/js/runtime-main.97b3e45a.js",
+    "runtime-main.js.map": "/coltraneapp/static/js/runtime-main.97b3e45a.js.map",
+    "static/js/2.b5e267f4.chunk.js": "/coltraneapp/static/js/2.b5e267f4.chunk.js",
+    "static/js/2.b5e267f4.chunk.js.map": "/coltraneapp/static/js/2.b5e267f4.chunk.js.map",
+    "static/js/3.51dee86c.chunk.js": "/coltraneapp/static/js/3.51dee86c.chunk.js",
+    "static/js/3.51dee86c.chunk.js.map": "/coltraneapp/static/js/3.51dee86c.chunk.js.map",
+    "index.html": "/coltraneapp/index.html",
+    "static/css/main.72110ae2.chunk.css.map": "/coltraneapp/static/css/main.72110ae2.chunk.css.map",
+    "static/js/2.b5e267f4.chunk.js.LICENSE.txt": "/coltraneapp/static/js/2.b5e267f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97b3e45a.js",
+    "static/js/2.b5e267f4.chunk.js",
+    "static/css/main.72110ae2.chunk.css",
+    "static/js/main.02d4e25e.chunk.js"
+  ]
+}
