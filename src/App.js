@@ -15,7 +15,7 @@ export default class App extends Component
 
   incrementCount = () => {
     this.setState({
-      count: this.state.count + 1
+      count: this.state.count + 10
     });
   };
 
